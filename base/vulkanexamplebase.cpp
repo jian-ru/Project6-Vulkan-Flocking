@@ -505,6 +505,7 @@ VulkanExampleBase::VulkanExampleBase(bool enableValidation, PFN_GetEnabledFeatur
 	initxcbConnection();
 #endif
 
+	enabledFeatures = {};
 	if (enabledFeaturesFn != nullptr)
 	{
 		this->enabledFeatures = enabledFeaturesFn();
