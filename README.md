@@ -6,6 +6,8 @@ Vulkan Flocking: compute and shading in one pipeline!
 * Jian Ru
   Windows 10, i7-4850 @ 2.3GHz 16GB, GT 750M 16GB (Personal)
 
+![](img/demo.gif)
+
 ### Q&A
 
 * **Why do you think Vulkan expects explicit descriptors for things like
