@@ -28,7 +28,7 @@
 
 #define VERTEX_BUFFER_BIND_ID 0
 #define ENABLE_VALIDATION true // LOOK: toggle Vulkan validation layers. These make debugging much easier!
-#define PARTICLE_COUNT 1024 // LOOK: change particle count here
+#define PARTICLE_COUNT 4 * 1024 // LOOK: change particle count here
 
 // LOOK: constants for the boids algorithm. These will be passed to the GPU compute part of the assignment
 // using a Uniform Buffer. These parameters should yield a stable and pleasing simulation for an
